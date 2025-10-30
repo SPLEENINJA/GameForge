@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Créer un jeu</title>
+  </head>
+  <body>
+    <h1>GameForge - Créer un jeu</h1>
+
+    {% if messages %} {% for message in messages %}
+    <p style="color: green">{{ message }}</p>
+    {% endfor %} {% endif %}
+
+    <form method="POST">
+      {% csrf_token %} {{ form.as_p }}
+      <button type="submit">Enregistrer</button>
+    </form>
+
+    <h2>Mes jeux</h2>
+    {% for game in games %}
+    <div>
+      <strong>{{ game.genre }}</strong> - {{ game.ambiance }}<br />
+      Mots-clés: {{ game.mots_cles }}<br />
+      {% if game.references %}Références: {{ game.references }}{% endif %}
+    </div>
+    {% empty %}
+    <p>Aucun jeu créé pour le moment.</p>
+    {% endfor %}
+  </body>
+</html>
