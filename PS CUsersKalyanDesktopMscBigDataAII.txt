@@ -1,0 +1,31 @@
+PS C:\Users\Kalyan\Desktop\MscBigDataAI\IPSSI\14th_W_PyDjyango\django> python -m venv venv
+>> 
+PS C:\Users\Kalyan\Desktop\MscBigDataAI\IPSSI\14th_W_PyDjyango\django> venv\Scripts\activate
+
+PS C:\Users\Kalyan\Desktop\MscBigDataAI\IPSSI\14th_W_PyDjyango\django>
+pip install django djangorestframework drf-yasg celery redis pillow django-cors-headers python-dotenv requests transformers accelerate
+
+
+(venv) PS C:\Users\Kalyan\Desktop\MscBigDataAI\IPSSI\14th_W_PyDjyango\projectDjango\GameForge> python manage.py makemigrations
+
+(venv) PS C:\Users\Kalyan\Desktop\MscBigDataAI\IPSSI\14th_W_PyDjyango\projectDjango\GameForge> python manage.py migrate       
+
+
+(venv) PS C:\Users\Kalyan\Desktop\MscBigDataAI\IPSSI\14th_W_PyDjyango\projectDjango\GameForge>  pip install transformers torch accelerate 
+
+(venv) PS C:\Users\Kalyan\Desktop\MscBigDataAI\IPSSI\14th_W_PyDjyango\projectDjango\GameForge> python manage.py runserver                               
+  
+--admin  kalyan---- kalyan       
+------------for ia------
+pip install transformers torch accelerate 
+
+1️⃣ Créer un projet React
+Dans un dossier à part (par exemple minigallery-frontend) :
+npx create-react-app minigallery-frontend
+cd minigallery-frontend
+npm start
+Le projet démarre sur http://localhost:3000.
+ 
+
+
+                                               

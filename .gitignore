@@ -1,0 +1,6 @@
+# Django
+venv/
+db.sqlite
+# Frontend (React) specific
+frontend/node_modules/
+.env

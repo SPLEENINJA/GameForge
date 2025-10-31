@@ -1,0 +1,66 @@
+/* === Dashboard.css === */
+.dashboard-page {
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    min-height: 100vh;
+  }
+  
+  .input-box {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 400px;
+    margin: 0 auto 2rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+  }
+  
+  .input-box button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #6e8efb;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .input-box button:hover {
+    background-color: #5b74d4;
+  }
+  
+  .concept-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .concept-card {
+    background-color: white;
+    border-radius: 12px;
+    width: 220px;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .concept-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
