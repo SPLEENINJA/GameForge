@@ -1,0 +1,11 @@
+<h2>Créer un univers de jeu</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Générer JSON</button>
+</form>
+
+{% if user_json %}
+  <h3>Résultat JSON :</h3>
+  <pre>{{ user_json }}</pre>
+{% endif %}
