@@ -9,7 +9,10 @@ load_dotenv()
 
 HF_API_KEY = os.getenv("HF_API_KEY")
 
-HF_MODEL_URL = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell"
+# HF_MODEL_URL = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell"
+# NEW REQUIRED ENDPOINT (router)
+HF_MODEL_URL = "https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell"
+
 
 headers = {
     "Authorization": f"Bearer {HF_API_KEY}",
